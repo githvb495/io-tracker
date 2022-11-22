@@ -1,0 +1,22 @@
+.form-control {
+  @apply flex flex-row
+}
+
+.input-group {
+  @apply flex w-full h-min items-stretch
+  [&>*]:hover:border-b-2 [&>*]:dark:hover:border-b-2
+}
+
+.input {
+  @apply shrink md:h-12 px-3 pb-2 pt-3 max-w-xs
+  border-b border-flag-500 hover:border-b-2
+  shadow-none outline-none outline-offset-0 
+  focus-visible:outline-1 focus-visible:outline-main-200 
+  text-sm font-medium text-main-900
+  placeholder:text-main-200 dark:text-main-50
+  dark:bg-main-900 dark:bg-opacity-20 dark:focus:bg-opacity-30
+}
+
+.input:focus {
+  @apply outline-none shadow-none
+}

@@ -1,0 +1,16 @@
+.sidebar {
+  @apply flex flex-col h-screen w-40 text-sm
+  border-r-2
+  dark:text-main-50 dark:bg-main-500 dark:border-main-300
+}
+
+.sidebar-item {
+  @apply flex items-center p-2 select-none
+  dark:hover:text-main-50 dark:hover:bg-main-400 dark:hover:bg-opacity-30 
+}
+
+.sidebar-menu-item {
+  @apply flex flex-col items-start justify-center p-3
+  border-b-2 dark:border-main-300
+  dark:hover:text-white dark:hover:bg-main-900 dark:hover:bg-opacity-100
+}

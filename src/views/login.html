@@ -1,0 +1,77 @@
+<div class="md:flex md:flex-row w-full h-screen bg-white dark:bg-main-900">
+
+  <!-- Login -->
+  <div class="flex items-center justify-center w-full md:w-1/2 h-screen bg-white dark:bg-main-500" id="loginWrapper">
+    <div class="flex flex-col items-stretch w-full max-w-xs md:m-12 gap-3">
+      <form class="flex flex-col">
+        <h2 class="h2 self-center">Iniciar Sesión</h2>
+        <input type="text" name="email" id="loginEmail" placeholder="Email" class="input mx-8 my-3">
+        <div class="form-control max-w-xs mx-8 my-3">
+          <label class="input-group">
+            <input type="password" placeholder="Password" name="password" id="loginPassword" class="input grow">
+            <button class="btn-inside-r" id="loginVisibility">
+              <span class="material-symbols-outlined">visibility</span>
+            </button>
+          </label>
+        </div>
+        <input type="submit" value="Entrar" class="input btn mx-8 my-3 pb-[14px]">
+      </form>
+      <hr class="hr mx-8">
+      <div class="flex flex-row w-full h-14 mt-3 justify-end items-center">
+        <div class="grow justify-self-start ml-7">
+          <button class="btn-link" id="goToSignup">
+            Registrarse
+          </button>
+        </div>
+        <div class="flex items-center w-14 mr-6">
+          <button class="btn hover:bg-opacity-0 h-fit !p-2 bg-transparent hover:border-2">
+            <svg class="w-7 fill-flag-500" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 30 30">
+              <path
+                d="M 15.003906 3 C 8.3749062 3 3 8.373 3 15 C 3 21.627 8.3749062 27 15.003906 27 C 25.013906 27 27.269078 17.707 26.330078 13 L 25 13 L 22.732422 13 L 15 13 L 15 17 L 22.738281 17 C 21.848702 20.448251 18.725955 23 15 23 C 10.582 23 7 19.418 7 15 C 7 10.582 10.582 7 15 7 C 17.009 7 18.839141 7.74575 20.244141 8.96875 L 23.085938 6.1289062 C 20.951937 4.1849063 18.116906 3 15.003906 3 z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign Up -->
+  <div class="hidden items-center justify-center w-full md:w-1/2 h-screen bg-white dark:bg-main-500" id="signupWrapper">
+    <div class="flex flex-col items-stretch w-full max-w-xs md:m-12 gap-3">
+      <form class="flex flex-col">
+        <h2 class="h2 self-center">Registrarse</h2>
+        <input type="text" name="email" id="signupEmail" placeholder="Email" class="input mx-8 my-3">
+        <div class="form-control max-w-xs mx-8 my-3">
+          <label class="input-group">
+            <input type="password" placeholder="Password" name="password" id="signupPassword" class="input grow">
+            <button class="btn-inside-r" id="signupVisibility">
+              <span class="material-symbols-outlined">visibility</span>
+            </button>
+          </label>
+        </div>
+        <input type="submit" value="Entrar" class="input btn mx-8 my-3 pb-[14px]">
+      </form>
+      <hr class="hr mx-8">
+      <div class="flex flex-row w-full h-14 mt-3 justify-end items-center">
+        <div class="grow justify-self-start ml-7">
+          <button class="btn-link" id="goToLogin">
+            Ya tengo una cuenta
+          </button>
+        </div>
+        <div class="flex items-center w-14 mr-6">
+          <button class="btn h-fit !p-2 bg-transparent hover:border-2">
+            <svg class="w-7 fill-flag-500" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 30 30">
+              <path
+                d="M 15.003906 3 C 8.3749062 3 3 8.373 3 15 C 3 21.627 8.3749062 27 15.003906 27 C 25.013906 27 27.269078 17.707 26.330078 13 L 25 13 L 22.732422 13 L 15 13 L 15 17 L 22.738281 17 C 21.848702 20.448251 18.725955 23 15 23 C 10.582 23 7 19.418 7 15 C 7 10.582 10.582 7 15 7 C 17.009 7 18.839141 7.74575 20.244141 8.96875 L 23.085938 6.1289062 C 20.951937 4.1849063 18.116906 3 15.003906 3 z">
+              </path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TODO Live Demo -->
+  <div class="w-0 h-0 md:w-1/2 md:h-screen bg-slate-500 dark:bg-slate-500">Demo</div>
+</div>

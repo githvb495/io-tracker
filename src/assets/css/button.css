@@ -1,0 +1,23 @@
+.btn {
+  @apply cursor-pointer p-3 pb-[14px] border border-flag-500
+  hover:border-2 hover:bg-flag-500 hover:bg-opacity-5
+  outline-offset-1
+}
+
+.btn-inside-r {
+  @apply inline-flex items-center justify-center shrink-0
+  w-0 max-w-fit h-10 md:h-12 py-4 px-6 
+  cursor-pointer select-none shadow-none focus:shadow-none
+  text-main-200 hover:text-main-300 dark:hover:text-main-50
+  outline-none outline-offset-0 focus-visible:outline-1 focus-visible:outline-main-200
+  bg-none dark:bg-main-900 dark:bg-opacity-20 focus:bg-opacity-30
+  hover:bg-none
+  rounded-none border-b border-flag-500 hover:border-b-2 
+}
+
+.btn-link {
+  @apply w-fit h-fit p-0 m-0 border-none bg-none bg-opacity-0 
+  rounded outline-offset-2
+  font-normal text-c-link dark:text-main-50
+  hover:border-none hover:bg-none hover:bg-opacity-0
+}

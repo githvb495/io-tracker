@@ -1,0 +1,27 @@
+@import url('button.css');
+@import url('sidebar.css');
+@import url('input.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h2 {
+  @apply text-lg font-medium mx-4 mt-6 mb-3 dark:text-main-50
+}
+
+.hr {
+  @apply border-t-2 border-main-200 shrink
+}
+
+/*
+'c-link': '#277EC3',        // btn-link text color
+'io-main-50': '#DFDFDF',    // dark:text-color
+'io-main-200': '#888888',		// button text color, placeholder-text, dark:placeholder-text, focus-visible:outline-io-main-200
+'io-main-300': '#444444',   // hover:button text color, border
+'io-main-400': '#383838',		// tile background, input background
+'io-main-500': '#2C2C2C',   // background, input background (10%)
+'io-main-900': '#1E1E1E',   // text-color, dark:bg (20%) focus:dark:bg (30%)
+'io-flag-500': '#0D9091',   // border
+'io-accent-500': '#F2A716'
+*/
